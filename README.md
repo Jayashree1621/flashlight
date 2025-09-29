@@ -2,7 +2,7 @@
 
 🔦 Flashlight Effect – Web Experiment with HTML, CSS & JavaScript
 
-I recently built an interactive project that simulates a flashlight shining across a dark background. As the user moves the cursor (or finger on touch devices), a circular spotlight follows, revealing the hidden background beneath. It feels like holding a real flashlight over a surface — in this case, an old newspaper page.
+I recently built an interactive project that simulates a flashlight shining across a dark background. As the user moves the cursor (or finger on touch devices), a circular spotlight follows, revealing the hidden background beneath. It feels like holding a real flashlight over a surface — in this  case, an old newspaper page.
 
 💡 What this project demonstrates:
 
@@ -34,3 +34,4 @@ Writing clean, modular code across separate HTML, CSS, and JS files
 ✨ Even though it’s a small experiment, projects like this remind me how front-end development blends logic with creativity. It’s these little touches that can make digital experiences stand out.
 
 #WebDevelopment #Frontend #JavaScript #CSS #HTML #InteractiveUI #LearningByBuilding
+
