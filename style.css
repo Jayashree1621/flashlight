@@ -1,0 +1,35 @@
+:root {
+  --spot-x: 50%;
+  --spot-y: 50%;
+  --spot-size: 220px;
+  --overlay-opacity: 0.95;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.page {
+  position: relative;
+  height: 100%;
+  background: url('https://www.shutterstock.com/shutterstock/photos/1922157296/display_1500/stock-photo-old-paper-texture-background-vintage-retro-newspaper-empty-blank-space-page-with-grunge-stain-line-1922157296.jpg') center/cover no-repeat;
+  color: black;
+  padding: 20px;
+  font-family: cursive;
+}
+
+/* Flashlight overlay */
+.flashlight {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at var(--spot-x) var(--spot-y),
+    rgba(0,0,0,0) 0px,
+    rgba(0,0,0,0) calc(var(--spot-size) * 0.35),
+    rgba(0,0,0,var(--overlay-opacity)) calc(var(--spot-size) * 0.65)
+  );
+  z-index: 999;
+}
